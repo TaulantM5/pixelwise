@@ -6,3 +6,7 @@ def test_addiere_korrekt():
 
 def test_addiere_fehler():
     assert addiere(10, 10) == 20
+
+
+def test_absichtlicher_fehler():
+    assert addiere(2, 2) == 4
